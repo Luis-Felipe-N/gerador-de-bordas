@@ -33,12 +33,12 @@ input[type=range] {
     background: #ffffff50;
   }
   input[type=range]::-webkit-slider-thumb {
-    height: 16px;
-    width: 10px;
+    height: 26px;
+    width: 20px;
     background: #ffffffc0;
     cursor: pointer;
     -webkit-appearance: none;
-    margin-top: -6.7px;
+    margin-top: -12px;
   }
 
 input {
@@ -68,7 +68,7 @@ input {
 
 /* Area de copiar */
 
-.label {
+.container-label {
     color: var(--color-white);
     display: flex;
     flex-wrap: wrap;
@@ -79,6 +79,10 @@ input {
 .label-text {
     padding: 1rem;
     box-shadow:-3px -3px 7px hsla(0,0%,100%,0.05) ,3px 3px 5px rgba(0,0,0,0.1);
+}
+
+.label-text span {
+    font-size: .9rem;
 }
 
 .btn {
@@ -94,6 +98,16 @@ input {
 
 .btn:hover {
     box-shadow:inset -3px -3px 7px hsla(0,0%,100%,0.05) ,inset 3px 3px 5px rgba(0,0,0,0.1);
+}
+.container-unidade {
+    margin: 1rem;
+    display: 100%;
+    /* max-width: 200px; */
+}
+
+.btn-unidade {
+    width: 4rem;
+    text-align: center;
 }
 
 @media (max-width: 800px) {

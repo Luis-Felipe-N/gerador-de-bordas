@@ -2,5 +2,5 @@
 
 Um site que gera automaticamente border-radius para seu css 
 
-# Exemplo:
-<img src="/assets/example.png" > 
+# Exemplo
+<img src="/assets/example.png" alt="imagem de exemplo">

@@ -35,26 +35,32 @@
             <div class="box">
             </div>
     
-            <input max="200" value="left" id="valor-left" type="range">
-            <input max="200" value="right" id="valor-right" type="range">
-            <input max="200" value="top" id="valor-top" type="range">
-            <input max="200" value="bottom" id="valor-bottom" type="range">
+            <input max="100" value="0" id="valor-left" type="range" data-direction="left">
+            <input max="100" value="0" id="valor-right" type="range" data-direction="right">
+            <input max="100" value="0" id="valor-top" type="range" data-direction="top">
+            <input max="100" value="0" id="valor-bottom" type="range" data-direction="bottom">
         </div>
     </section>
     
     
-    <div class="label">
+    <div class="container-label">
         <div class="label-text"> 
             <span>border-radius: </span>
-            <span id="label-left">0px</span>
-            <span id="label-top">0px</span>
-            <span id="label-right">0px</span>
-            <span id="label-bottom">0px</span>
+            <span class="label" id="label-left">0px</span>
+            <span class="label" id="label-top">0px</span>
+            <span class="label" id="label-right">0px</span>
+            <span class="label" id="label-bottom">0px</span>
             <span>;</span>
         </div>
         
-        <button class="btn">Copiar</button>
+        <button class="btn btn-copiar">Copiar</button>
     </div>
+    <div class="container-unidade">
+        <button class="btn btn-unidade">%</button>
+        <button class="btn btn-unidade">px</button>
+        <button class="btn btn-unidade">rem</button>
+    </div>
+    <!-- <img src="/assets/example.png" > -->
 
     <script src="/script.js"></script>
     <script src="https://kit.fontawesome.com/73b3f70564.js" crossorigin="anonymous"></script>
