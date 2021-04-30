@@ -101,8 +101,6 @@ input {
 }
 .container-unidade {
     margin: 1rem;
-    display: 100%;
-    /* max-width: 200px; */
 }
 
 .btn-unidade {

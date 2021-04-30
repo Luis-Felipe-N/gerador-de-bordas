@@ -41,12 +41,14 @@ function mudarUnidadeMedida(unidade) {
 // Retirar 'copiado!' do btn 
 
 document.body.addEventListener('click' ,(e) => {
-    if (e.target.className != 'btn') {
+    if (!e.target.hasAttribute('data-copiar')) {
+        console.log('scksn')
         btnCopiar.textContent = 'Copiar'
     }
 });
 
-btnCopiar.addEventListener('click', (e) => {
+btnCopiar.addEventListener('click', () => {
+    console.log('tes')
     var labelText = document.querySelector('.label-text')
     navigator.clipboard.writeText(labelText.innerText);
     btnCopiar.textContent = 'Copiado!'
