@@ -1,13 +1,13 @@
-# gerador-de-bordas
+# Gerador border-radius
 
 
 
-# Exemplo
-<img src="/assets/example.png" alt="imagem de exemplo">
+## Preview
+![imagem de exemplo](assets/preview.png)
 <p style="text-align: center;">Um site onde voê pode criar um border-radius e copiar o css.
 </p>
 
-# Tecnoligias 
+## Tecnoligias 
 
 - HTML
 - CSS
